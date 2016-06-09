@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/main_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bdc9c6">
+
+        <LinearLayout android:id="@+id/layout_main_screen"
+                      xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="10dp">
+
+
+            <Button
+
+                android:id="@+id/btnNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff3b6fca"
+                android:clickable="true"
+                android:padding="10sp"
+                android:text="Create New Record In DB"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"/>
+
+            <Button
+
+                android:id="@+id/btnBkpSD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff3b6fca"
+                android:clickable="true"
+                android:padding="10sp"
+                android:text="Backup DB to SD card"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"/>
+
+            <Button
+
+                android:id="@+id/btnRestoreSD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff3b6fca"
+                android:clickable="true"
+                android:padding="10sp"
+                android:text="Restore DB From SD Card"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"/>
+
+            <Button
+
+                android:id="@+id/btnShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff3b6fca"
+                android:clickable="true"
+                android:padding="10sp"
+                android:text="Show DB Data"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"/>
+            <Button
+
+                android:id="@+id/btnExportPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff3b6fca"
+                android:clickable="true"
+                android:padding="10sp"
+                android:text="Create Backup Path"
+                android:textColor="#ffffffff"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Description goes here..."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

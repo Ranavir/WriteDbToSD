@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/layout_new_record"
+
+                  xmlns:android="http://schemas.android.com/apk/res/android"
+
+                  android:layout_width="match_parent"
+
+                  android:layout_height="match_parent"
+
+                  android:background="#bdc9c6"
+                  android:orientation="vertical"
+                  android:padding="10dp">
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            >
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+        <Button
+
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save User to DB"
+            android:clickable="true"
+            android:background="#ff3b6fca"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:padding="10sp"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+</LinearLayout>
